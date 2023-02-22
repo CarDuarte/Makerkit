@@ -1,0 +1,19 @@
+{
+	"postsInstructions": "Please share something",
+	"postTextInputLabel": "Post text",
+	"createPostSubmitLabel": "Create Post",
+	"createPostSuccess": "Post created successfully",
+	"createPostError": "Post not created. Please try again.",
+	"createPostLoading": "Creating post...",
+	"loadPostsError": "Error while trying to list posts.",
+	"updatePostSuccess": "Post updated successfully",
+	"updatePostError": "Post not updated. Please try again.",
+	"updatePostLoading": "Updating post...",
+	"updatePostModalHeading": "Updating Post",
+	"updatePostSubmitLabel": "Update Post",
+	"deletePostSuccessMessage": "Post deleted successfully",
+	"deletePostErrorMessage": "Post not deleted. Please try again.",
+	"deletePostLoadingMessage": "Deleting post. Please wait...",
+	"deletePostModalHeading": "Deleting Post",
+	"deletePostSubmitLabel": "Delete Post"
+}

@@ -1,0 +1,8 @@
+{
+	"meetingsInstructions": "Create a Meeting",
+	"meetingTextInputLabel": "Meeting text",
+	"createMeetingSubmitLabel": "Create Meeting",
+	"createMeetingSuccess": "Meeting created successfully",
+	"createMeetingError": "Meeting not created. Please try again.",
+	"createMeetingLoading": "Creating Meeting..."
+}

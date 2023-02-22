@@ -1,0 +1,8 @@
+{
+	"postsInstructions": "Please share something",
+	"postTextInputLabel": "Post text",
+	"createPostSubmitLabel": "Create Post",
+	"createPostSuccess": "Post created successfully",
+	"createPostError": "Post not created. Please try again.",
+	"createPostLoading": "Creating post..."
+}
