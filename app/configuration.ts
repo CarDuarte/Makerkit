@@ -47,7 +47,6 @@ const configuration = {
       password: '/settings/profile/password',
     },
     posts: '/posts',
-    meetings: '/meetings',
     api: {
       checkout: `/stripe/checkout`,
       billingPortal: `/stripe/portal`,

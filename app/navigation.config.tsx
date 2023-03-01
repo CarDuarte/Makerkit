@@ -29,13 +29,6 @@ const NAVIGATION_CONFIG = {
         return <DocumentTextIcon className={className} />;
       },
     },
-    {
-      label: 'common:meetingsTabLabel',
-      path: configuration.paths.meetings,
-      Icon: ({ className }: { className: string }) => {
-        return <ChatBubbleLeftIcon className={className} />;
-      },
-    },
   ],
 };
 

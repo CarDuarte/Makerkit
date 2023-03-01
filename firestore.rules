@@ -104,22 +104,6 @@ service cloud.firestore {
       return true;
     }
 
-
-     function canCreateMeeting() {
-      return true;
-    }
-     function canReadMeeting(meetingId) {
-      return true;
-    }
-
-    function canUpdateMeeting(meetingId) {
-      return true;
-    }
-    
-    function canDeleteMeeting(meetingId) {
-      return true;
-    }
-
     match /organizations/{organizationId} {
       allow create: if canCreateOrganization();
       allow read: if userId() in existingData().members;
@@ -142,11 +126,5 @@ service cloud.firestore {
       allow delete: if canDeletePost(postId);
     }
 
-    match /meetings/{meetingId} {
-      allow create: if canCreateMeeting();
-      allow read: if canReadMeeting(meetingId);
-      allow update: if canUpdateMeeting(meetingId);
-      allow delete: if canDeleteMeeting(meetingId);
-    }
   }
 }

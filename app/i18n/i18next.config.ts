@@ -13,7 +13,6 @@ const i18Config = {
     'profile',
     'subscription',
     'post',
-    'meeting',
   ],
   react: { useSuspense: false },
 };
